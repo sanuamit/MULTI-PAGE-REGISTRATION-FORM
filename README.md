@@ -12,7 +12,7 @@ We appreciate your interest in our registration process. To ensure a smooth regi
 
 After successfully uploading your documents on the third page, click the "Register" button to complete your registration process.
 
-Ready to start your registration? Click here to begin =>
+Ready to start your registration? Click here to begin => https://sanuamit.github.io/MULTI-PAGE-REGISTRATION-FORM/
 
 Thank you for choosing our registration platform! Should you encounter any issues or have questions, please don't hesitate to contact us using the provided information on the last page.
 
