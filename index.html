@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Responsive Registration Form</title>
+  </head>
+  <body>
+    <section class="form">
+      <div class="container">
+        <h1>REGISTRATION FORM</h1>
+        <form
+          id="registration-form"
+          action="https://formspree.io/f/mdordgyy"
+          method="POST"
+        >
+          <div class="step step-1 active">
+            <head>
+              PAGE - 1 :
+            </head>
+            <head>
+              Enter Your Personal Details
+            </head>
+            <div class="form-group">
+              <div class="single-row">
+                <label for="name"
+                  >Name<span style="color: red; font-weight: bold">*</span>
+                  :</label
+                >
+                <div class="single-column1">
+                  <input
+                    type="text"
+                    id="firsename"
+                    name="first-name"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="single-column2">
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="last-Name"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="DateofBirth"
+                >Date of Birth<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="date"
+                id="DateofBirth"
+                name="date-of-birth"
+                placeholder="Enter Your Birth Date"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Email"
+                >Email<span style="color: red; font-weight: bold">*</span>
+                :</label
+              >
+              <input
+                type="text"
+                id="email"
+                name="email-id"
+                placeholder="Email Id"
+              />
+            </div>
+            <div class="form-group">
+              <div class="single-row">
+                <label for="father'sname"
+                  >Father's Name<span style="color: red; font-weight: bold"
+                    >*</span
+                  >
+                  :</label
+                >
+                <div class="single-column1">
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="first-name"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="single-column2">
+                  <input
+                    type="text"
+                    id="lastname"
+                    name="last-name"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="single-row">
+                <label for="name"
+                  >Mother's Name<span style="color: red; font-weight: bold"
+                    >*</span
+                  >
+                  :</label
+                >
+                <div class="single-column1">
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="first-name"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="single-column2">
+                  <input
+                    type="text"
+                    id="lastname"
+                    name="last-name"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="radio">
+                <label for="Gender"
+                  >Gender<span style="color: red; font-weight: bold">*</span>
+                  :</label
+                >
+                <div class="male">
+                  <div class="k">Male</div>
+                  <input type="radio" id="Gender" name="Gender" value="male" />
+                </div>
+                <div class="female">
+                  <div class="l">Female</div>
+                  <input
+                    type="radio"
+                    id="Gender"
+                    name="Gender"
+                    value="female"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="nationality"
+                >Nationality<span style="color: red; font-weight: bold">*</span>
+                :</label
+              >
+              <input
+                type="text"
+                id="nationality"
+                name="nationality"
+                placeholder="Nationality"
+              />
+            </div>
+            <div class="form-group">
+              <label for="fulladdress"
+                >Home Address<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="text"
+                id="fulladdress"
+                name="full-address"
+                placeholder="Street Address"
+              />
+              <div class="single-row">
+                <div class="single-column1">
+                  <input
+                    type="text"
+                    id="fulladdress"
+                    name="full-address"
+                    placeholder="State"
+                  />
+                </div>
+                <div class="single-column2">
+                  <select>
+                    <option value="country">Country</option>
+                    <option value="australia">Australia</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="india">India</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="nepal">Nepal</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="telephone"
+                >Telephone-Home<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="number"
+                id="HomeTelephoneNumber"
+                name="telephone-number"
+                placeholder="### ### ####"
+              />
+            </div>
+            <div class="form-group">
+              <label for="telephone"
+                >Telephone-Mobile<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="number"
+                id="HomeTelephoneNumber"
+                name="telephone-number"
+                placeholder="### ### ####"
+              />
+            </div>
+            <button type="button" class="next-btn">Next</button>
+          </div>
+
+          <div class="step step-2">
+            <head>
+              PAGE - 2 :
+            </head>
+            <head>
+              Enter Your Educational Details
+            </head>
+            <div class="form-group">
+              <label for="InstitutionName"
+                >HSC Institution Name<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="text"
+                id="InstitutionName"
+                name="Institution-Name"
+                placeholder="Institution Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="HSCBoard"
+                >HSC Board<span style="color: red; font-weight: bold">*</span>
+                :</label
+              >
+              <input
+                type="text"
+                id="HSCBoard"
+                name="HSC-Board"
+                placeholder="HSC-Board Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="HSCScore"
+                >HSC Score<span style="color: red; font-weight: bold">*</span>
+                :</label
+              >
+              <input
+                type="text"
+                id="HSCScore"
+                name="HSC-Score"
+                placeholder="HSC-Score In Percentage or CGPA"
+              />
+            </div>
+            <div class="form-group">
+              <label for="SSCInstitutionName"
+                >SSC Institution Name<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="text"
+                id="SSCInstitutionName"
+                name="SSC-Institution-Name"
+                placeholder="SSC Institution Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="SSCBoard"
+                >SSC Board<span style="color: red; font-weight: bold">*</span>
+                :</label
+              >
+              <input
+                type="text"
+                id="SSCBoard"
+                name="SSC-Board"
+                placeholder="SSC-Board Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="SSCScore"
+                >SSC Score<span style="color: red; font-weight: bold">*</span>
+                :</label
+              >
+              <input
+                type="text"
+                id="SSCScore"
+                name="SSC-Score"
+                placeholder="SSC-Score In Percentage or CGPA"
+              />
+            </div>
+            <div class="form-group">
+              <label for="CurrentlyPursuing"
+                >Currently Pursuing<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="text"
+                id="CurrentlyPursuing"
+                name="Currently-Pursuing"
+                placeholder="Currently Pursuing Education or Skills"
+              />
+            </div>
+            <div class="form-group">
+              <label for="CurrentEducationalInstitutionName"
+                >Current Educational Institution Name<span
+                  style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="text"
+                id="CurrentEducationalInstitutionName"
+                name="Current-Educational-Institution-Name"
+                placeholder="Current Educational Institution Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="OverallPercentage"
+                >Overall Percentage<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="text"
+                id="OverallPercentage"
+                name="Overall-Percentage"
+                placeholder="Overall Score In Percentage or CGPA"
+              />
+            </div>
+            <div class="form-group">
+              <label for="CurrentBacklogsIfAny"
+                >Current Backlogs If Any :</label
+              >
+              <input
+                type="number"
+                id="CurrentBacklogsIfAny"
+                name="Current-Backlogs-If-Any"
+                placeholder="Number Of Current Backlogs If Having Any"
+              />
+            </div>
+            <button type="button" class="previous-btn">Back</button>
+            <button type="button" class="next-btn">Next</button>
+          </div>
+
+          <div class="step step-3">
+            <head>
+              PAGE - 3 :
+            </head>
+            <head>
+              Browse And Upload Your File
+            </head>
+            <div class="form-group">
+              <label for="PassportsizePhotograph"
+                >Passportsize-Photograph<span
+                  style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="file"
+                id="PassportsizePhotograph"
+                name="PassportsizePhotograph"
+                placeholder="Enter image Max Size 4MB"
+              />
+            </div>
+            <div class="form-group">
+              <label for="HSCMarksheet"
+                >HSC-Marksheet<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="file"
+                id="HSCMarksheet"
+                name="HSC-Marksheet"
+                placeholder="Enter image,PDF,docs Max Size 4MB"
+              />
+            </div>
+            <div class="form-group">
+              <label for="SSCMarksheet"
+                >SSC-Marksheet<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="file"
+                id="SSCMarksheet"
+                name="SSC-Marksheet"
+                placeholder="Enter image,PDF,docs Max Size 4MB"
+              />
+            </div>
+            <div class="form-group">
+              <label for="UGMarksheet"
+                >UG-Marksheet<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="file"
+                id="UGMarksheet"
+                name="UG-Marksheet"
+                placeholder="Enter image,PDF,docs Max Size 4MB"
+              />
+            </div>
+            <div class="form-group">
+              <label for="PGMarksheet"
+                >PG-Marksheet<span style="color: red; font-weight: bold"
+                  >*</span
+                >
+                :</label
+              >
+              <input
+                type="file"
+                id="PGMarksheet"
+                name="PG-Marksheet"
+                placeholder="Enter image,PDF,docs Max Size 4MB"
+              />
+            </div>
+
+            <button type="button" class="previous-btn">Back</button>
+            <button type="submit" class="submit-btn">Register</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script>
+      document
+        .getElementById("registration-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          this.submit();
+        });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
